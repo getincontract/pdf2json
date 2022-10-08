@@ -19,7 +19,7 @@
            Promise, isArray, ObjectLoader, isValidUrl, OperatorList, OPS */
 
 'use strict';
-const PDFAnno = require('../lib/pdfanno.js').default;
+const PDFAnno = require('../lib/pdfanno.js');
 
 var Annotation = (function AnnotationClosure() {
   // 12.5.5: Algorithm: Appearance streams
