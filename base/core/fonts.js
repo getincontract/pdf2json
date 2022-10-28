@@ -21,6 +21,7 @@
            FONT_IDENTITY_MATRIX, FontRendererFactory, shadow, isString */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 // Unicode Private Use Area
 var CMAP_GLYPH_OFFSET = 0xE000;

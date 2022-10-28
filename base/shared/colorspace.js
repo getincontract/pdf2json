@@ -18,6 +18,7 @@
            PDFFunction, warn, shadow, TODO */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var ColorSpace = (function ColorSpaceClosure() {
   // Constructor should define this.numComps, this.defaultColor, this.name

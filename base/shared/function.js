@@ -17,6 +17,7 @@
  */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var PDFFunction = (function PDFFunctionClosure() {
   var CONSTRUCT_SAMPLED = 0;

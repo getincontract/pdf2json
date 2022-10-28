@@ -17,6 +17,7 @@
  */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var bidi = PDFJS.bidi = (function bidiClosure() {
   // Character types for symbols from 0000 to 00FF.

@@ -17,6 +17,7 @@
 /* globals PDFJS, shadow, isWorker, assert, warn, bytesToString, globalScope */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 PDFJS.disableFontFace = false;
 

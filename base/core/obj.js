@@ -22,6 +22,7 @@
            ChunkedStream */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var Name = (function NameClosure() {
   function Name(name) {

@@ -18,6 +18,7 @@
            JpegImage, JpxImage, Lexer, Util, PDFJS */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var Stream = (function StreamClosure() {
   function Stream(arrayBuffer, start, length, dict) {

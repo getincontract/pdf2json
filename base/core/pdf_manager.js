@@ -18,6 +18,7 @@
            PDFDocument, ChunkedStreamManager */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 // TODO(mack): Make use of PDFJS.Util.inherit() when it becomes available
 var BasePdfManager = (function BasePdfManagerClosure() {

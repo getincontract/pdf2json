@@ -17,6 +17,7 @@
  */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var Jbig2Image = (function Jbig2ImageClosure() {
 

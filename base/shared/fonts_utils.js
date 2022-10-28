@@ -18,6 +18,7 @@
            Components, Dict, dump, error, isNum, log, netscape, Stream */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 /*
  * The Type2 reader code below is only used for debugging purpose since Type2

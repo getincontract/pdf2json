@@ -22,6 +22,7 @@
            */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var Page = (function PageClosure() {
 

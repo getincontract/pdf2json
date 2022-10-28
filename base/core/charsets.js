@@ -16,6 +16,7 @@
  */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var ISOAdobeCharset = [
   '.notdef', 'space', 'exclam', 'quotedbl', 'numbersign', 'dollar',

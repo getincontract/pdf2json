@@ -16,6 +16,7 @@
  */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var CIDToUnicodeMaps = {
   'Adobe-Japan1': [[32, 160], {f: 12, c: 33}, [45, 8209], {f: 46, c: 46}, 165,

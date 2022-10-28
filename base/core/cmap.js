@@ -18,6 +18,7 @@
            isStream */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var CMAP_CODESPACES = {
   'Adobe-CNS1-0': [[], [0, 14335]],

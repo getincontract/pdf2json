@@ -18,6 +18,7 @@
            isEmptyObj */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var ChunkedStream = (function ChunkedStreamClosure() {
   function ChunkedStream(length, chunkSize, manager) {

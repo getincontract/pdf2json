@@ -19,6 +19,7 @@
            warn, CachedCanvases */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var PatternType = {
   AXIAL: 2,

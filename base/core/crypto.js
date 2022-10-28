@@ -18,6 +18,7 @@
            PasswordException, PasswordResponses, stringToBytes */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var ARCFourCipher = (function ARCFourCipherClosure() {
   function ARCFourCipher(key) {

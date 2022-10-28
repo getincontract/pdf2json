@@ -17,6 +17,7 @@
  */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 import { DOMParser } from '@xmldom/xmldom';
 
 var Metadata = PDFJS.Metadata = (function MetadataClosure() {

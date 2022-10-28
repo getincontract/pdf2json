@@ -23,6 +23,7 @@
            RefSetCache, isRef, TextRenderingMode, CMapFactory, OPS */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var PartialEvaluator = (function PartialEvaluatorClosure() {
   function PartialEvaluator(pdfManager, xref, handler, pageIndex,

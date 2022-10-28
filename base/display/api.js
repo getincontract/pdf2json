@@ -21,6 +21,7 @@
            FontFace */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 /**
  * The maximum allowed image size in total pixels e.g. width * height. Images

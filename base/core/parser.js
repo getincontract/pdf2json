@@ -20,6 +20,7 @@
            NullStream, PredictorStream, Ref, RunLengthStream, warn, info */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var EOF = {};
 

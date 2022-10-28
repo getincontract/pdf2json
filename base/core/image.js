@@ -18,6 +18,7 @@
            Stream, TODO, warn */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var PDFImage = (function PDFImageClosure() {
   /**

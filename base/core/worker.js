@@ -21,6 +21,7 @@
            isInt, PasswordResponses, MessageHandler, Ref */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 //MQZ. Oct.11.2012. Add Worker's postMessage API
 globalScope.postMessage = function WorkerTransport_postMessage(obj) {

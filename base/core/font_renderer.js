@@ -17,6 +17,7 @@
 /* globals error, Stream, GlyphsUnicode, CFFParser, Encodings, Util */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var FontRendererFactory = (function FontRendererFactoryClosure() {
   function getLong(data, offset) {

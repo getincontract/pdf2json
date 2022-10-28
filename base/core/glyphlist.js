@@ -16,6 +16,7 @@
  */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var GlyphsUnicode = {
   A: 0x0041,

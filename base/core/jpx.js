@@ -17,6 +17,7 @@
 /* globals error, globalScope, warn */
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 var JpxImage = (function JpxImageClosure() {
   // Table E.1

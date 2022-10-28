@@ -19,6 +19,7 @@
 // of the addon. So using warn/error in here will break the addon.
 
 'use strict';
+import { globalScope, PDFJS } from '../global.js'
 
 
 //#if (FIREFOX || MOZCENTRAL)

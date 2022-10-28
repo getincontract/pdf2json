@@ -19,7 +19,7 @@
            Promise, isArray, ObjectLoader, isValidUrl, OperatorList, OPS */
 
 'use strict';
-
+import { globalScope, PDFJS } from '../global.js'
 import PDFAnno from '../../lib/pdfanno.js'
 
 var Annotation = (function AnnotationClosure() {
